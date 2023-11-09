@@ -6,7 +6,7 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Ex10();
+        Devide();
 
 
         System.out.println("Hello");
@@ -22,10 +22,10 @@ public class Main {
 
 
     public static void Devide() {
-        int a = 10;
-        int b = 2;
-        int sum = a / b;
-        System.out.println("10/2");
+        int a = 50;
+        int b = 3;
+        double sum = a / b;
+        System.out.println("50/3");
         System.out.println(sum);
     }
 
